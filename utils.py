@@ -34,4 +34,6 @@ def extract_dob_and_face(image_bytes, face_save_path="aadhar_face.jpg"):
         return text, dob, age, face_img, face_save_path
     else:
         return text, dob, age, None, None
+        
 Delete unused utils.py
+
